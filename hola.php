@@ -2,7 +2,6 @@
 // Este comentario está mal y hay que borrarlo
 // añadimos algo para modificar un commit existente
 // El nombre por defecto es Mundo
-
 require('HolaMundo.php');
 
 echo "Hola Mundo\n";
