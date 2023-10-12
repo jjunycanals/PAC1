@@ -45,26 +45,6 @@ const calculate = async () => {
         } else {
             apiresult.innerText = `Error en la respuesta de la llamada API. Error num. ${response.status}`;
         }
-        
-
-
-        // if (negative(uno, dos) === true) {
-        //     fetch(`https://v6.exchangerate-api.com/v6/99e6ff88606075edbf61c0ef/latest/${one}`)
-        //         .then(res => res.json())
-        //         .then(data => {
-        //             console.log(data);
-        //             apiresult.innerText = `${response}`;
-        //             const rate = data.conversion_rates[two];
-        //             const calculationResult = data.conversion_rates[two] * amountEl_one.value;
-        //             console.log(rate);
-        //             rateEl.innerText = `1 ${one} = ${rate} ${two}`;
-        //             amountEl_two.value = `${calculationResult}`;
-        //         })
-        // } else if (negative(uno, dos) === uno) {
-        //     errorOne.innerText = `Valor 1 no puede ser negativo`;
-        // } else if (negative(uno, dos) === dos) {
-        //     errorTwo.innerText = 'Valor 2 no puede ser negativo';
-        // }
     } catch (error) {
         apiresult.innerText(error);
     }
