@@ -87,10 +87,12 @@ body {
 }
 .showcase li small {
     margin-left: 2px;
+    color: #fff;
 }
 
 .row {
     display: flex;
+    margin-left: 35px;
 }
 
 .screen {
@@ -107,4 +109,27 @@ p.text {
 }
 p.text span {
     color: #6feaf6;
+}
+
+.currency{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.currency select {
+    padding: 10px 20px 10px 10px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 3px solid #fff;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 16px;
+    background-position: right 10px top 50%, 0, 0;
+    background-size: 12px auto, 100%;
+    background-repeat: no-repeat;
 }
